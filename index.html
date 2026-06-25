@@ -695,22 +695,28 @@
 
     <div class="section-divider max-w-7xl mx-auto"></div>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="relative py-24 sm:py-32">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
-                <div class="reveal">
-                    <span class="inline-block px-4 py-1.5 rounded-full bg-brand-500/10 border border-brand-500/20 text-sm font-medium text-brand-300 mb-4">Pricing Plans</span>
-                </div>
-                <h2 class="reveal font-display font-bold text-3xl sm:text-4xl lg:text-5xl text-white mb-6">
-                    Simple, <span class="bg-gradient-to-r from-brand-400 to-purple-400 bg-clip-text text-transparent">Transparent</span> Pricing
-                </h2>
-                <p class="reveal text-lg text-slate-400">No hidden fees. No surprises. Pick a plan and start streaming immediately.</p>
-            </div>
-            <div style="display:flex; flex-direction:row; justify-content:center; align-items:stretch; gap:1.5rem; max-width:900px; margin:0 auto;">
+   <!-- Pricing Section -->
+<section id="pricing" class="relative py-24 sm:py-32">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-                <!--  yearly -->
-                <div class="reveal glass-card rounded-2xl p-8 hover-lift glow-border glow-border-hover flex flex-col">
+        <div class="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
+            <div class="reveal">
+                <span class="inline-block px-4 py-1.5 rounded-full bg-brand-500/10 border border-brand-500/20 text-sm font-medium text-brand-300 mb-4">Pricing Plans</span>
+            </div>
+            <h2 class="reveal font-display font-bold text-3xl sm:text-4xl lg:text-5xl text-white mb-6">
+                Simple, <span class="bg-gradient-to-r from-brand-400 to-purple-400 bg-clip-text text-transparent">Transparent</span> Pricing
+            </h2>
+            <p class="reveal text-lg text-slate-400">No hidden fees. No surprises. Pick a plan and start streaming immediately.</p>
+        </div>
+
+        <!-- Outer wrapper: column so the note goes below -->
+        <div style="display:flex; flex-direction:column; align-items:center;">
+
+            <!-- Cards row -->
+            <div style="display:flex; flex-direction:row; justify-content:center; align-items:stretch; gap:2rem; width:100%; max-width:860px;">
+
+                <!-- Standard -->
+                <div class="reveal glass-card rounded-2xl hover-lift glow-border glow-border-hover flex flex-col" style="flex:1; min-width:0; padding:2.5rem;">
                     <div class="mb-6">
                         <h3 class="font-display font-semibold text-lg text-white mb-1">Premium Server</h3>
                         <p class="text-sm text-slate-500">Most popular short-term</p>
@@ -720,7 +726,6 @@
                             <span class="font-display font-black text-4xl text-white">€55</span>
                             <span class="text-slate-500">/yearly</span>
                         </div>
-                        <p class="text-xs text-brand-400 mt-1 font-medium"></p>
                     </div>
                     <ul class="space-y-3 mb-8 flex-1">
                         <li class="flex items-center gap-3 text-sm text-slate-300"><i class="fas fa-check text-green-400 text-xs"></i>22,000+ Live Channels</li>
@@ -734,8 +739,9 @@
                         <i class="fab fa-whatsapp text-green-400"></i> Order Now
                     </a>
                 </div>
-                <!-- yearly - Popular -->
-                <div class="reveal pricing-popular rounded-2xl p-8 hover-lift flex flex-col relative">
+
+                <!-- Premium 4K -->
+                <div class="reveal pricing-popular rounded-2xl hover-lift flex flex-col relative" style="flex:1; min-width:0; padding:2.5rem;">
                     <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-brand-500 to-purple-500 text-xs font-bold text-white uppercase tracking-wider shadow-lg shadow-brand-500/30">
                         Best Value
                     </div>
@@ -748,7 +754,7 @@
                             <span class="font-display font-black text-4xl text-white">€75</span>
                             <span class="text-slate-500">/yearly</span>
                         </div>
-                        <p class="text-xs text-brand-400 mt-1 font-medium"></p>
+                        <p class="text-xs text-brand-400 mt-1 font-medium">4K included</p>
                     </div>
                     <ul class="space-y-3 mb-8 flex-1">
                         <li class="flex items-center gap-3 text-sm text-slate-300"><i class="fas fa-check text-green-400 text-xs"></i>22,000+ Live Channels</li>
@@ -763,6 +769,18 @@
                     </a>
                 </div>
 
+            </div>
+
+            <!-- Note BELOW the cards -->
+            <p class="text-sm text-slate-500 mt-8 text-center">
+                Need extra connections?
+                <a href="https://wa.me/447498241707?text=Hi%2C%20I%20need%20an%20extra%20connection%20for%20my%20IPTV%20subscription" target="_blank" class="text-brand-400 hover:text-brand-300 underline underline-offset-2 transition-colors duration-200">Contact us</a>
+                for custom multi-device plans.
+            </p>
+
+        </div>
+    </div>
+</section>
             <!-- Extra connections note -->
             <div class="reveal text-center mt-12">
                 <div class="inline-flex items-center gap-3 px-6 py-3 rounded-2xl glass-card glow-border">
